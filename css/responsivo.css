@@ -1,0 +1,142 @@
+/*Estilo para tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px){ 
+.qualidade:after{
+    right: 66px;
+}
+.qualidade-lista li {
+    padding: 0 10px;
+}
+
+.footer_redes ul li a {
+    padding: 6px;
+}
+
+.footer_redes ul li a img {
+    width: 26px;
+    height: 26;
+}
+
+.produtos_item h2 {
+    top:-150px;
+    margin-bottom: -56px;
+}
+
+.produtos_icone{
+    padding: 41px 0;
+}
+
+.produtos_info p{
+    padding:20px 30px ;
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+}
+
+.produtos_info ul li {
+    width: 181px;
+    height: 49px; 
+}
+
+}
+
+
+/*Estilo para App */
+@media only screen and (max-width: 787px){
+.header{
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.header img{
+    margin: 0 auto;
+}
+
+.header_menu{
+    text-align: center;
+}
+
+.header_menu ul li a{
+   width: 140px;
+   display: block;
+   float: left;
+}
+
+.header_menu ul li {
+   margin: 0;
+}
+
+.introducao{
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+.introducao h1{
+    font-size: 36px;
+    
+}
+
+.introducao-interna {
+    margin-top: 0px;
+}
+
+.call{
+   padding-top: 10px;
+}
+
+.qualidade:after{
+    display: none;
+}
+
+.missao_sobre p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+    
+}
+
+.missao_sobre ul li{
+    font-size: 14px;
+    line-height: 25px;  
+}
+
+.produtos_item h2 {
+    top:-100px;
+    margin-bottom: -68px;
+}
+
+.produtos_icone{
+    padding: 41px 0;
+}
+
+.produtos_info p{
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+}
+
+.produtos_info ul li {
+   width: 149px;
+   height: 49px;
+   font-size: 14px;
+   line-height: 20px;
+   padding-top: 14px;
+}
+
+.form {
+    padding-right: 0px;
+}
+
+.orcamento_dados ul{
+    padding-right: 0px;
+}
+
+.contato_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+
+}
+
+
